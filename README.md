@@ -1,7 +1,7 @@
 
 # HANA AI Assistant 🤖
 
-This project demonstrates a conversational AI assistant built with Streamlit and powered by OpenAI's GPT models. It allows users to interact with an SAP HANA database, generate charts, fetch external data (like weather), execute simple commands, perform forecasting, and update records using natural language queries.
+This project demonstrates a conversational AI assistant built with Streamlit and powered by OpenAI's GPT models. It allows users to interact with an SAP HANA database, generate charts, fetch external data (like weather), execute OS commands
 
 ## Architecture Overview
 
