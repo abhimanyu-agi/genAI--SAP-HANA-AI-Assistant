@@ -16,7 +16,8 @@ The application uses an LLM (OpenAI GPT-4o) as a central orchestrator. Based on 
 7.  The LLM determines the next step or generates the final response for the user.
 8.  The **Streamlit App** displays the final answer, data, or chart to the user.
 
-![image](https://github.com/user-attachments/assets/ce738951-6781-4e30-92ce-a38b41c80988)
+![image](https://github.com/user-attachments/assets/a96c99ad-cf8d-4983-a0ed-396fe3d62567)
+
 
 
 ## Features
