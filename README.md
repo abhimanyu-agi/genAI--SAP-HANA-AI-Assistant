@@ -8,7 +8,7 @@ This project demonstrates a conversational AI assistant built with Streamlit and
 The application uses an LLM (OpenAI GPT-4o) as a central orchestrator. Based on user input and a detailed system prompt:
 
 1.  The **LLM** understands the user's request and plans the necessary steps.
-2.  It selects the appropriate **Agent** (a specialized Python function) and generates the required input (e.g., SQL query, chart parameters, city name, command, forecast parameters, update filters/note).
+2.  It selects the appropriate **Agent** (a specialized Python function) and generates the required input (e.g., SQL query, chart parameters, city name, command etc).
 3.  The **Streamlit App** receives instructions from the LLM (via JSON) and calls the corresponding local Agent function.
 4.  The **Agent** executes its task, potentially interacting with **External Services** (SAP HANA Cloud, Weather API, Server OS).
 5.  The Agent returns the result to the Streamlit App.
@@ -16,7 +16,8 @@ The application uses an LLM (OpenAI GPT-4o) as a central orchestrator. Based on 
 7.  The LLM determines the next step or generates the final response for the user.
 8.  The **Streamlit App** displays the final answer, data, or chart to the user.
 
-*(Consider embedding your architecture diagram image here if you have it hosted)*
+![image](https://github.com/user-attachments/assets/ce738951-6781-4e30-92ce-a38b41c80988)
+
 
 ## Features
 
